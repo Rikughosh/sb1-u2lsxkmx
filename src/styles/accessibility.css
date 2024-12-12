@@ -1,0 +1,26 @@
+/* High Contrast Mode */
+.high-contrast {
+  --bg-primary: #000000;
+  --text-primary: #ffffff;
+  --accent-primary: #ffff00;
+}
+
+.high-contrast .text-gray-600 {
+  color: var(--text-primary) !important;
+}
+
+.high-contrast .bg-gray-100 {
+  background-color: var(--bg-primary) !important;
+}
+
+/* Reduced Motion */
+.reduced-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+/* Focus Styles */
+*:focus {
+  outline: 3px solid #2563eb !important;
+  outline-offset: 2px !important;
+}
